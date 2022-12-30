@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+
+    <script src="fa/all.js"></script>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <div class="logo"></div>
+            <div class="tabs">
+                <div><span style="font-size: 15px;" class="fas fa-cog"></span><div>Dashboard</div></div>
+                <div><span style="font-size: 15px;" class="fas fa-calendar-day"></span><div>Schedule</div></div>
+                <div><span style="font-size: 15px;" class="fas fa-seedling"></span><div>Plants</div></div>
+                <div><span style="font-size: 15px;" class="fas fa-comments"></span><div>Message</div></div>
+                <div><span style="font-size: 15px;" class="fas fa-credit-card"></span><div>Payments</div></div>
+                <div><span style="font-size: 15px;" class="fas fa-cog"></span><div>Settings</div></div>
+            </div>
+            <div class="manage">
+                <div class="shape">
+                    <div id="trans"> </div>
+                    <div id="note">You can manage multiple farms here.</div>
+                    <div id="add">Add Farm</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="board">
+            <div class="empty"></div>
+            <div class="bar">
+                <div class="search">
+                    <div class="search_box">
+                        <div id="search"> <span class="fas fa-search"></span> </div>
+                        <div id="box"> <input type="search" name="" id="" placeholder="Search plants here"></div>
+                    </div>
+                </div>
+
+                <div class="info">
+                    <div class="notifications"> <span class="fas fa-bell"></span> <span id="badge"></span> </div>
+                    <div class="profile"> <span class=""></span></div>
+                </div>
+            </div>
+            <div class="name"><span>Hello,</span> <div>Damn Folk</div></div>
+            <div class="content">
+                <div class="growth">
+                    <div class="">
+                        <div id="head">
+                            <div class="head">Plant growth activity</div>
+                            <div id="sort">
+                                <select>
+                                    <option value="Weekly">Weekly</option>
+                                    <option value="Monthly">Monthly</option>
+                                    <option value="Yearly">Yearly</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="history"></div>
+                        <div class="week"></div>
+                    </div>
+                </div>
+
+                <div class="length">
+                    <div class="stage">
+                        <div id="stage_img1"><div></div></div>
+                        <div class="double">
+                            <div class="up">Height Plant</div>
+                            <div class="bottom"><strong>4.3 </strong> cm</div>
+                        </div class="ellipsis">
+                        <div><span class="fas fa-ellipsis-h fa-1x" style="font-weight: lighter; color:#056564; cursor: pointer;"></span></div>
+                        </div>
+                    <div class="stage">
+                        <div id="stage_img2"><div></div></div>
+                        <div class="double">
+                            <div class="up">Water Quality</div>
+                            <div class="bottom"><strong>40% </strong></div>
+                        </div>
+                        <div class="ellipsis"><span class="fas fa-ellipsis-h fa-1x" style="font-weight: lighter; color:#056564; cursor: pointer;"></span></div>
+                    </div>
+                    <div class="stage">
+                        <div id="stage_img3"> <div></div></div>
+                        <div class="double">
+                            <div class="up">Age Plant</div>
+                            <div class="bottom"><strong>2 </strong> Week(s)</div>
+                        </div>
+                        <div class="ellipsis"><span class="fas fa-ellipsis-h fa-1x" style="font-weight: lighter; color:#056564; cursor: pointer;"></span></div>
+                    </div>
+                </div>
+                <div class="production">
+                    <div class="header">
+                        <div class="">
+                            <div class="top">Production Details</div> <br> <div class="alt">Lorem ipsum dolor sit.</div>
+                        </div>
+                        <div class="button">
+                            <div class="export_icon"> <span class="fas fa-upload"></span></div>
+                            <div class="export_text"> Export</div>
+                        </div>
+                    </div>
+                    <div class="graph">
+                        
+                    </div>
+                </div>
+                <div class="stats">
+                    <div class="inside">
+                        <div class="score">
+                            <div>Total Score : </div> <span id="scores"> 70%</span>
+
+                        </div>
+                        <div class="progress">
+                            <progress id="progress" value=".2"></progress>
+                        </div>
+                        <div class="manager">
+                            <div class="manager_head">Financial Statistics</div> <br>
+                            <div class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit Officiis.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="others">
+            <div class="farm_img"></div>
+            <div class="harvest">
+                <div class="harvest_head">
+                    <div style="color: #fff; text-align: center; font-size: 1.2rem; font-weight: bolder; font-family: cursive;">Harvest Schedule</div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore, voluptatem!</p>
+                </div>
+                <div class="harvest_body">
+                    <div class=""></div>
+                    <div class=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

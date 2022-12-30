@@ -1,0 +1,58 @@
+@media screen and (max-width: 919px) {
+    body{
+        margin-left: 20px;
+        background-color: #EDF6F5;
+        height: 1200px;
+        justify-content: center;
+    }
+    .menu{
+        grid-column: span 0;
+        display: none;
+    }
+    .board{
+        grid-column: span 12;
+    }
+    .others{
+        grid-column: span 0;
+        display: none;
+    }
+    .content{
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .growth, .production, .stats{
+        grid-row: span 1;
+        grid-column: span 15;
+    }
+    .length{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 1048px) and (min-width: 920px) {
+    .menu{
+        grid-column: span 3;
+    }
+    .board{
+        grid-column: span 9;
+    }
+    .others{
+        grid-column: span 0;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .notifications{
+        display: none;
+    }
+    .head{
+        font-size: 0.9rem;
+    }
+    
+}
+@media screen and (max-width: 500px) {
+    .search_box{
+        width: 53%;
+    }
+}
